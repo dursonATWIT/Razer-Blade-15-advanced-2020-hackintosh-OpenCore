@@ -21,12 +21,14 @@ What does work that I've tested
 10. Battery reporting (seems iffy with the % so far, kext just might need time though)
 etc
 
+"Guide" expects you to already more or less know what you're doing
+
 --Pre install--
-Copy efi folder to macOS install media's efi partition (use EFI Mounter 3.1)
-Use OpenCore configurator to generate your own serial number
-Disable secure boot in bios
-Likely some other bios setting I forgot about idk
+1. Copy efi folder to macOS install media's efi partition (use EFI Mounter 3.1)
+2. Use OpenCore configurator to generate your own serial number
+3. Disable secure boot in bios
+4. Likely some other bios setting I forgot about idk
 
 --Post install--
-Navigate to System Preferences > Trackpad and disable Force Click or you will have a bad time
-Copy efi folder to SSD's efi partition (use EFI Mounter 3.1)
+1. Navigate to System Preferences > Trackpad and disable Force Click or you will have a bad time
+2. Copy efi folder to SSD's efi partition (use EFI Mounter 3.1)
