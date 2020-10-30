@@ -3,15 +3,16 @@
 Tested with macOS 10.15.7
 
 What doesn't work (yet):
-1. dGpu for obvious reasons, it has been disabled
-2. Intel wifi
+1. Nvidia dGpu for obvious reasons, it has been disabled
+~~2. Intel wifi~~
 3. SD Card reader
 4. Capslock light (known issue with razer)
+5. Big Sur
 
 What does work that I've tested
 1. Trackpad, disable force clicking
 2. 300Hz
-3. Audio (if non functional change the boot arg for applealc to 3 or 47, these will have glitchy sounding headphones though)
+3. Audio (if non functional change the boot arg for applealc to 3 or 22, these will have glitchy sounding headphones though, glitchy sounds can be resolved by opening midi settings and turning a channel down)
 4. USB 3&C (thunderbolt not tested, USB drives appear as internal but still have the USB icon and are ejectable so oh well)
 5. Webcam & webcam light
 6. SSD (stock)
@@ -19,6 +20,8 @@ What does work that I've tested
 8. Keyboard (ALT key is replaced by the WIN key for whatever reason, bugs me)
 9. Brightness
 10. Battery reporting (seems iffy with the % so far, kext just might need time though)
+11. Intel wifi now working but its very slow and unstable, not recommended
+12. Intel Bluetooth (untested further than just seeing devices)
 etc
 
 "Guide" expects you to already more or less know what you're doing
