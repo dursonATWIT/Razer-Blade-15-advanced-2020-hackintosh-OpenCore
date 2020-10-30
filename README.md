@@ -1,0 +1,1 @@
+# Razer-Blade-15-advanced-2020-hackintosh-OpenCore
