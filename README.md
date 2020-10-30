@@ -12,7 +12,7 @@ What does work that I've tested
 1. Trackpad, disable force clicking
 2. 300Hz
 3. Audio
-4. Usb 3&C (thunderbolt not tested)
+4. USB 3&C (thunderbolt not tested, USB drives appear as internal but still have the USB icon and are ejectable so oh well)
 5. Webcam & webcam light
 6. SSD (stock)
 7. iGpu
