@@ -4,10 +4,10 @@ Tested with macOS 10.15.7
 
 What doesn't work (yet):
 1. Nvidia dGpu for obvious reasons, it has been disabled
-~~2. Intel wifi~~
+2. Capslock light (known issue with razer)
 3. SD Card reader
-4. Capslock light (known issue with razer)
-5. Big Sur
+~~4. Intel wifi~~
+~~5. Big Sur~~ Big Sur will lock to 60Hz but otherwise works
 
 What does work that I've tested
 1. Trackpad, disable force clicking
@@ -17,11 +17,11 @@ What does work that I've tested
 5. Webcam & webcam light
 6. SSD (stock)
 7. iGpu
-8. Keyboard (ALT key is replaced by the WIN key for whatever reason, bugs me)
+8. Keyboard 
 9. Brightness
-10. Battery reporting (seems iffy with the % so far, kext just might need time though)
+10. Battery reporting 
 11. Intel wifi now working but its very slow and unstable, not recommended
-12. Intel Bluetooth (untested further than just seeing devices)
+12. Intel Bluetooth
 etc
 
 "Guide" expects you to already more or less know what you're doing
