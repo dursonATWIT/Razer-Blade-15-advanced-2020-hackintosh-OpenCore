@@ -12,7 +12,7 @@ What doesn't work (yet):
 What does work that I've tested
 1. Trackpad, disable force clicking
 2. 300Hz (Catalina only, no idea why this is broken for Big Sur)
-3. Audio (Switched from AppleALC to VoodooHDA, I am aware of the negative reputation of VoodooHDA, however in this particular case for this specific laptop until AppleALC is updated/I make a cusom layout, VoodooHDA is a better fit. Now with VoodooHDA internal speakers & headphone jack work with no distortion as well as built in and in line microphones. Automatic headphone/speaker switching is non functional, the only fix would be switching back to AppleALC with a custom layout.
+3. Audio (Switched from AppleALC to VoodooHDA, I am aware of the negative reputation of VoodooHDA, however in this particular case for this specific laptop until AppleALC is updated/I make a cusom layout, VoodooHDA is a better fit. Now with VoodooHDA internal speakers & headphone jack work with no distortion as well as built in and in line microphones. Automatic headphone/speaker switching is non functional, the only fix would be switching back to AppleALC with a custom layout.)
 4. USB 3&C (thunderbolt not tested, USB map completely fixed as of 1/11/21)
 5. Webcam & webcam light
 6. SSD (stock)
