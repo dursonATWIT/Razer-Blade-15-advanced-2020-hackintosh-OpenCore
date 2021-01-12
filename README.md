@@ -16,7 +16,7 @@ What does work that I've tested
 4. USB 3&C (thunderbolt not tested, USB map completely fixed as of 1/11/21)
 5. Webcam & webcam light
 6. SSD (stock)
-7. iGpu
+7. iGPU
 8. Keyboard 
 9. Brightness
 10. Battery reporting 
