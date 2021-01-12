@@ -3,7 +3,7 @@
 Tested with macOS 10.15.7 - 11.1
 
 What doesn't work (yet):
-1. Nvidia dGpu for obvious reasons, it has been disabled
+1. Nvidia dGPU for obvious reasons, it has been disabled
 2. C̶a̶p̶s̶l̶o̶c̶k̶ ̶l̶i̶g̶h̶t̶ ̶(̶k̶n̶o̶w̶n̶ ̶i̶s̶s̶u̶e̶ ̶w̶i̶t̶h̶ ̶r̶a̶z̶e̶r̶)̶ See bottom
 3. SD Card reader (is a PCIe card reader not USB so will likely never work)
 4. I̶n̶t̶e̶l̶ ̶w̶i̶f̶i̶
