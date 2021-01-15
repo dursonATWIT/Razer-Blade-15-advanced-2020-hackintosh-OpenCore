@@ -7,11 +7,11 @@ What doesn't work (yet):
 2. C̶a̶p̶s̶l̶o̶c̶k̶ ̶l̶i̶g̶h̶t̶ ̶(̶k̶n̶o̶w̶n̶ ̶i̶s̶s̶u̶e̶ ̶w̶i̶t̶h̶ ̶r̶a̶z̶e̶r̶)̶ See bottom
 3. SD Card reader (is a PCIe card reader not USB so will likely never work)
 4. I̶n̶t̶e̶l̶ ̶w̶i̶f̶i̶
-5. B̶i̶g̶ ̶S̶u̶r̶ Big Sur will lock to 60Hz but otherwise now works
+5. B̶i̶g̶ ̶S̶u̶r̶ B̶i̶g̶ ̶S̶u̶r̶ ̶w̶i̶l̶l̶ ̶l̶o̶c̶k̶ ̶t̶o̶ ̶6̶0̶H̶z̶ ̶b̶u̶t̶ ̶o̶t̶h̶e̶r̶w̶i̶s̶e̶ ̶n̶o̶w̶ ̶w̶o̶r̶k̶s̶
 
 What does work that I've tested
 1. Trackpad, disable force clicking
-2. 300Hz (Catalina only, no idea why this is broken for Big Sur)
+2. 300Hz / 240Hz now work on Big Sur, however this now breaks 60Hz, if you prefer 60Hz and dont care about loosing 300Hz in Big Sur change "-igfxmpc" to "-igfxmlr" in the boot arguments in the config.plist
 3. Audio (Switched from AppleALC to VoodooHDA, I am aware of the negative reputation of VoodooHDA, however in this particular case for this specific laptop until AppleALC is updated/I make a cusom layout, VoodooHDA is a better fit. Now with VoodooHDA internal speakers & headphone jack work with no distortion as well as built in and in line microphones. Automatic headphone/speaker switching is non functional, the only fix would be switching back to AppleALC with a custom layout.)
 4. USB 3&C (thunderbolt not tested, USB map completely fixed as of 1/11/21)
 5. Webcam & webcam light
