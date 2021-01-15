@@ -1263,7 +1263,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-igfxmlr -igfxonln=1 -igfxfw=2 -igfxcflbklt=1 -igfxrpsc=1 debug=0x100 -rtsx_mimic_linux rtsx_timeout_shift=2</string>
+				<string>-igfxmpc -igfxonln=1 -igfxfw=2 -igfxcflbklt=1 -igfxrpsc=1 debug=0x100 -rtsx_mimic_linux rtsx_timeout_shift=2</string>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
